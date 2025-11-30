@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/refrigerator-physical-simulator//_next/:path+",
+        "destination": "/refrigerator-physical-simulator/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
